@@ -16,7 +16,7 @@ namespace Talabat.APIs.Controllers
 
         private readonly IPaymentService _paymentService;
         private readonly IMapper _mapper;
-        const string endpointSecret = "whsec_043d0c6dbeee9a11e3e972115890ce5a86e13b8a789d63a58e5fe2b4ad9ca6c6";
+        const string endpointSecret = "";
 
         public PaymentsController(IPaymentService paymentService, IMapper mapper)
         {
